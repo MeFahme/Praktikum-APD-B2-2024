@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="bmi"/>
+        <attribute name="authors" value="Fahme"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-23 11:21:02 PM"/>
+        <attribute name="created" value="RmFobWU7REVTS1RPUC00TkVKM1Y1OzIwMjQtMDktMjI7MTA6Mzc6MzggQU07Mjc5OQ=="/>
+        <attribute name="edited" value="RmFobWU7REVTS1RPUC00TkVKM1Y1OzIwMjQtMDktMjM7MTE6MjE6MDIgUE07NjsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="BeratBadan, TinggiBadan, BeratBadanMg, TinggiBadanMeter, BodyMassIndex" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan Berat Badan Anda dalam Mg (misal berat anda 53Kg = 53000000)&quot;" newline="True"/>
+            <input variable="BeratBadan"/>
+            <output expression="&quot;Masukkan Tinggi Badan Anda dalam KM (misal tinggi anda 169cm = 0.00169)&quot;" newline="True"/>
+            <input variable="TinggiBadan"/>
+            <assign variable="BeratBadanMg" expression="BeratBadan / 1000000"/>
+            <assign variable="TinggiBadanMeter" expression="TinggiBadan * 1000"/>
+            <assign variable="BodyMassIndex" expression="BeratBadanMg/ (TinggiBadanMeter*TinggiBadanMeter)"/>
+            <if expression="BodyMassIndex &lt; 18.5">
+                <then>
+                    <output expression="&quot;Body Mass Index &quot; &amp; BodyMassIndex &amp; &quot; = Underweight&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="BodyMassIndex &lt; 24.9">
+                        <then>
+                            <output expression="&quot;Body Mass Index &quot; &amp; BodyMassIndex &amp; &quot; = Normal&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="BodyMassIndex &lt; 29.9">
+                                <then>
+                                    <output expression="&quot;Body Mass Index &quot; &amp; BodyMassIndex &amp; &quot; = Overweight&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Body Mass Index &quot; &amp; BodyMassIndex &amp; &quot; = Obesitas&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
