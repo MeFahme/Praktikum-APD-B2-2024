@@ -7,7 +7,7 @@ print("PERINGATAN!!! Anda hanya memiliki 3 kali kesempatan untuk login")
 
 while gagal <= 3:
     loginname = input("masukkan username anda : ")
-    loginpassword = input("masukkan password sesuai 3 digit terakhir nim anda. jika 079, 79 saja : ")
+    loginpassword = input("masukkan password sesuai 3 digit terakhir nim anda. (jika 079, 79 saja) : ")
     print()
 
     if loginname == userName and loginpassword == passWord:
