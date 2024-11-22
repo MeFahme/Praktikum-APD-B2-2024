@@ -1,0 +1,133 @@
+{
+    "1": {
+        "status": "Digunakan",
+        "waktu_bermain": 2,
+        "sultan": "kysh",
+        "harga": 80000,
+        "fasilitas": [
+            "Sim Racing",
+            "PC",
+            "PS 5"
+        ]
+    },
+    "2": {
+        "status": "Digunakan",
+        "waktu_bermain": 2,
+        "sultan": "kysh",
+        "harga": 80000,
+        "fasilitas": [
+            "Sim Racing",
+            "PC",
+            "PS 5"
+        ]
+    },
+    "3": {
+        "status": "Digunakan",
+        "waktu_bermain": 1,
+        "sultan": "ss",
+        "harga": 50000,
+        "fasilitas": [
+            "PC",
+            "PS 5"
+        ]
+    },
+    "4": {
+        "status": "Digunakan",
+        "waktu_bermain": 1,
+        "sultan": "ss",
+        "harga": 50000,
+        "fasilitas": [
+            "PC",
+            "PS 5"
+        ]
+    },
+    "5": {
+        "status": "Digunakan",
+        "waktu_bermain": 1,
+        "sultan": "sd",
+        "harga": 30000,
+        "fasilitas": [
+            "PS 5"
+        ]
+    },
+    "6": {
+        "status": "Digunakan",
+        "waktu_bermain": 3,
+        "sultan": "kysh",
+        "harga": 30000,
+        "fasilitas": [
+            "PS 5"
+        ]
+    },
+    "7": {
+        "status": "Digunakan",
+        "waktu_bermain": 2,
+        "sultan": "kysh",
+        "harga": 30000,
+        "fasilitas": [
+            "PC"
+        ]
+    },
+    "8": {
+        "status": "Digunakan",
+        "waktu_bermain": 5,
+        "sultan": "keysa",
+        "harga": 70000,
+        "fasilitas": [
+            "PC",
+            "Sim Racing"
+        ]
+    },
+    "9": {
+        "status": "Tersedia",
+        "waktu_bermain": 0,
+        "sultan": "",
+        "harga": 80000,
+        "fasilitas": [
+            "Sim Racing",
+            "PC",
+            "PS 5"
+        ]
+    },
+    "10": {
+        "status": "Tersedia",
+        "waktu_bermain": 0,
+        "sultan": "",
+        "harga": 80000,
+        "fasilitas": [
+            "Sim Racing",
+            "PC",
+            "PS 5"
+        ]
+    },
+    "11": {
+        "status": "Tersedia",
+        "waktu_bermain": 0,
+        "sultan": "",
+        "harga": 40000,
+        "fasilitas": [
+            "PC",
+            "PS 5"
+        ]
+    },
+    "12": {
+        "status": "Tersedia",
+        "waktu_bermain": 0,
+        "sultan": "",
+        "harga": 80000,
+        "fasilitas": [
+            "Sim Racing",
+            "PC",
+            "PS 5"
+        ]
+    },
+    "13": {
+        "status": "Tersedia",
+        "waktu_bermain": 0,
+        "sultan": "",
+        "harga": 20000,
+        "fasilitas": [
+            "PC"
+        ]
+    }
+}
